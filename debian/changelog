@@ -1,0 +1,5 @@
+imx-firmware (5.10.72-2.2.2-1) buster; urgency=medium
+
+  * Initial release.
+
+ -- Ramiro Gsponer <r.gsponer@kunbus.com>  Mon, 26 Sep 2022 10:51:20 +0200

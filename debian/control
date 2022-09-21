@@ -1,0 +1,16 @@
+Source: imx-firmware
+Section: non-free/kernel
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.3.0
+Maintainer: KUNBUS GmbH <support@kunbus.com>
+Homepage: https://revolution.kunbus.com/
+Vcs-Git: https://github.com/RevolutionPi/imx-firmware.git
+Vcs-Browser: https://github.com/RevolutionPi/imx-firmware
+
+Package: firmware-nxp
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Binary firmware for NXP wireless cards
+ This package contains the binary firmware for wireless network cards with
+ NXP IW416 (SD8978, 88W8978) chips.
