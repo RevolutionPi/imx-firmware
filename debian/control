@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: KUNBUS GmbH <support@kunbus.com>
 Homepage: https://revolutionpi.com/
 Vcs-Browser: https://gitlab.com/revolutionpi/imx-firmware
-Vcs-Git: https://gitlab.com/revolutionpi/imx-firmware.git -b raspios/bullseye
+Vcs-Git: https://gitlab.com/revolutionpi/imx-firmware.git -b debian/bookworm
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 
 Package: firmware-nxp
 Architecture: all
