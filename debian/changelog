@@ -1,3 +1,12 @@
+imx-firmware (5.10.72-2.2.2-1+revpi11+1) bullseye; urgency=medium
+
+  * feat(deb): Update package for bullseye
+  * fix(deb): make package.install relative
+  * feat(deb): Install EULA.txt as documentation
+  * feat(deb): Add copyright years to copyright file
+
+ -- Thomas Böhler <t.boehler@kunbus.com>  Thu, 14 Mar 2024 09:54:58 +0100
+
 imx-firmware (5.10.72-2.2.2-1) buster; urgency=medium
 
   * Initial release.
