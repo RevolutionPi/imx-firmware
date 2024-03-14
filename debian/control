@@ -1,12 +1,12 @@
 Source: imx-firmware
 Section: non-free/kernel
 Priority: optional
-Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.3.0
 Maintainer: KUNBUS GmbH <support@kunbus.com>
-Homepage: https://revolution.kunbus.com/
-Vcs-Git: https://github.com/RevolutionPi/imx-firmware.git
-Vcs-Browser: https://github.com/RevolutionPi/imx-firmware
+Homepage: https://revolutionpi.com/
+Vcs-Browser: https://gitlab.com/revolutionpi/imx-firmware
+Vcs-Git: https://gitlab.com/revolutionpi/imx-firmware.git -b raspios/bullseye
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
 
 Package: firmware-nxp
 Architecture: all
