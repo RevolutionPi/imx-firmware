@@ -1,3 +1,9 @@
+imx-firmware (5.10.72-2.2.2-1+revpi12+1) bookworm; urgency=medium
+
+  * feat(deb): Update package for bookworm
+
+ -- Thomas Böhler <t.boehler@kunbus.com>  Thu, 14 Mar 2024 11:17:39 +0100
+
 imx-firmware (5.10.72-2.2.2-1+revpi11+1) bullseye; urgency=medium
 
   * feat(deb): Update package for bullseye
