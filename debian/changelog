@@ -1,3 +1,9 @@
+imx-firmware (5.10.72-2.2.2-2+revpi12+1) bookworm; urgency=medium
+
+  * fix: Use `mrvl` as firmware prefix
+
+ -- Nicolai Buchwitz <n.buchwitz@kunbus.com>  Thu, 18 Apr 2024 08:44:21 +0200
+
 imx-firmware (5.10.72-2.2.2-1+revpi12+1) bookworm; urgency=medium
 
   * feat(deb): Update package for bookworm
