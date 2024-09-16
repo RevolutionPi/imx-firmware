@@ -1,3 +1,69 @@
+imx-firmware (6.1.55-2.2.0-1+deb12+1) bookworm; urgency=medium
+
+  [ Sherry Sun ]
+  * FwImage: update firmware to mxm5x17293
+  * FwImage: update firmware to mxm5x17299.p1
+
+  [ Ann Thornton ]
+  * EULA.txt: Update
+
+  [ Sherry Sun ]
+  * FwImage: wifi_mod_para.conf: add max_vir_bss=1 config for SD8801
+  * FwImage: update firmware to mxm5x17322
+  * FwImage: add firmware for IW612
+  * FwImage: wifi_mod_para.conf: add default wifi module load parameters for IW612
+  * FwImage: update firmware to mxm5x17322.p3
+  * FwImage: update firmware to mxm5x17344.p1
+  * FwImage: wifi_mod_para.conf: change to use A1 secure mode firmware for IW612
+  * imx-firmware: nxp: improve the SCR-nxp.txt file
+
+  [ yunjie ]
+  * MA-20509 sync WCS WiFi code to Android 12.1
+
+  [ Sherry Sun ]
+  * LF-6958: remove the mac_addr for SD9098 and PCIE9098
+  * FwImage: update firmware to mxm5x17344.p2
+  * FwImage: update firmware to mxm5x17344.p3
+  * FwImage: update firmware to mxm5x17362
+  * FwImage: update firmware to mxm5x17366.p3
+  * FwImage: SD8801: change the ed_mac value for muRata 2DS module
+  * EULA.txt: update Software License to v40
+  * FwImage: update firmware to mxm5x17368
+  * FwImage: IW612: rename the IW612 firmware subdirectory
+  * FwImage: update firmware to mxm5x17368.p2
+
+  [ Zhipeng Wang ]
+  * MA-2102-1 [Android-powersave-image] Remove android_wifi_mod_para_powersave.conf
+
+  [ yunjie ]
+  * MA-21101 [i.MX 93_EVK] enable SDIO-UART IW612 module for WiFi and BT
+
+  [ Sherry Sun ]
+  * EULA.txt: update Software License to v44
+  * FwImage: update firmware to mxm5x17391
+  * FwImage: update firmware to mxm5x17391.p3
+  * EULA.txt: update Software License to v45
+  * EULA.txt: update Software License to v46
+
+  [ junmeng.li ]
+  * MA-21107 [i.MX 8MQ/8Q] fix WiFi direct test fail on 9098
+
+  [ Sherry Sun ]
+  * FwImage: update firmware to mxm6x17408
+  * imx-firmware: add Makefile to make yocto installation easy.
+  * EULA.txt: update Software License to v47
+  * EULA.txt: update Software License to v48
+  * imx-firmware: rename license file to LICENSE.txt
+  * FwImage: update firmware to mxm6x17408.p2
+  * LICENSE.txt: update Software License to v49
+  * FwImage: update firmware to mxm6x17423.p1
+  * FwImage: update firmware to mxm6x17423.p6
+
+  [ Philipp Rosenberger ]
+  * chore(deb): Update the copyright file
+
+ -- Ramiro Gsponer <r.gsponer@kunbus.com>  Mon, 16 Sep 2024 14:20:41 +0200
+
 imx-firmware (5.10.72-2.2.2-2+revpi12+1) bookworm; urgency=medium
 
   * fix: Use `mrvl` as firmware prefix
