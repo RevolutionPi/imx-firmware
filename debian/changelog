@@ -1,3 +1,35 @@
+imx-firmware (6.6.36-2.1.0-1+deb12+1) bookworm; urgency=medium
+
+  [ Sherry Sun ]
+  * LICENSE.txt: update Software License to v53
+  * FwImage: update firmware to mxm6x17437
+  * FwImage: update firmware to mxm6x17437.p3
+  * imx-firmware: correct the License File name in SCR.txt
+  * LICENSE.txt: update Software License to v54
+  * LICENSE.txt: update Software License to v56
+
+  [ Luke Wang ]
+  * FwImage: update firmware to mxm6x17437.p18
+  * FwImage: IW612: add a new firmware
+
+  [ yunjie ]
+  * MA-21717 [Android_I.MX8MQ_WEVK]WIFI: Sometimes can't connect Wi-Fi Direct
+    on both the DUT and the reference Phone. (60%)
+
+  [ Sherry Sun ]
+  * FwImage: update firmware to mxm6x17437.p21
+  * FwImage: update 8987/8997/9098 BT firmware names
+  * LICENSE.txt: update Software License to v57
+
+  [ Luke Wang ]
+  * FwImage: update firmware to mxm6x17437.p24
+  * FwImage: update firmware to mxm6x17437.p30
+
+  [ Ramiro Gsponer ]
+  * chore(deb): Update the copyright file
+
+ -- Ramiro Gsponer <r.gsponer@kunbus.com>  Tue, 24 Sep 2024 15:37:41 +0200
+
 imx-firmware (6.1.55-2.2.0-1+deb12+1) bookworm; urgency=medium
 
   [ Sherry Sun ]
