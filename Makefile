@@ -33,8 +33,10 @@ install:
 	install -m 0644 nxp/FwImage_8997_SD/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_9098_PCIE/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_9098_SD/* $(INSTALLDIR)/
+	install -m 0644 nxp/FwImage_AW693_PCIE/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_IW416_SD/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_IW610_SD/* $(INSTALLDIR)/
+	install -m 0644 nxp/FwImage_IW610_USB/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_IW612_SD/* $(INSTALLDIR)/
 
 clean:
