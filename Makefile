@@ -27,7 +27,6 @@ install:
 	install -m 0644 nxp/wifi_mod_para.conf $(INSTALLDIR)/
 	install -m 0644 nxp/mfguart/helper_uart_3000000.bin $(INSTALLDIR)/
 
-	install -m 0644 nxp/FwImage_8801_SD/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_8987/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_8997/* $(INSTALLDIR)/
 	install -m 0644 nxp/FwImage_8997_SD/* $(INSTALLDIR)/
