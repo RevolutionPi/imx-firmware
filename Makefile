@@ -28,8 +28,6 @@ install:
 	install -m 0644 mfguart/helper_uart_3000000.bin $(INSTALLDIR)/
 
 	install -m 0644 FwImage_8987_SD/* $(INSTALLDIR)/
-	install -m 0644 FwImage_8997_PCIE/* $(INSTALLDIR)/
-	install -m 0644 FwImage_8997_SD/* $(INSTALLDIR)/
 	install -m 0644 FwImage_9098_PCIE/* $(INSTALLDIR)/
 	install -m 0644 FwImage_9098_SD/* $(INSTALLDIR)/
 	install -m 0644 FwImage_AW693_PCIE/* $(INSTALLDIR)/
