@@ -31,6 +31,7 @@ install:
 	install -m 0644 FwImage_9098_PCIE/* $(INSTALLDIR)/
 	install -m 0644 FwImage_9098_SD/* $(INSTALLDIR)/
 	install -m 0644 FwImage_AW693_PCIE/* $(INSTALLDIR)/
+	install -m 0644 FwImage_AW693_SD/* $(INSTALLDIR)/
 	install -m 0644 FwImage_IW416_SD/* $(INSTALLDIR)/
 	install -m 0644 FwImage_IW610_SD/* $(INSTALLDIR)/
 	install -m 0644 FwImage_IW610_USB/* $(INSTALLDIR)/
