@@ -1,1 +1,2 @@
-nxp/FwImage_IW416_SD/sdiouartiw416_combo_v0.bin	usr/lib/firmware/mrvl
+#!/usr/bin/dh-exec
+FwImage_IW416_SD/sduartiw416_combo.bin	=>	usr/lib/firmware/mrvl/sdiouartiw416_combo_v0.bin

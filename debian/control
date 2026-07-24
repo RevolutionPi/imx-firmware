@@ -5,7 +5,9 @@ Maintainer: KUNBUS GmbH <support@kunbus.com>
 Homepage: https://revolutionpi.com/
 Vcs-Browser: https://gitlab.com/revolutionpi/imx-firmware
 Vcs-Git: https://gitlab.com/revolutionpi/imx-firmware.git -b debian/trixie
-Build-Depends: debhelper-compat (= 13)
+Build-Depends:
+  debhelper-compat (= 13),
+  dh-exec,
 Standards-Version: 4.7.2
 
 Package: firmware-nxp
