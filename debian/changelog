@@ -1,3 +1,83 @@
+imx-firmware (6.18.20-2.0.0-1+deb13+1) trixie; urgency=medium
+
+  [ Sherry Sun ]
+  * LICENSE.txt: update Software License to v58
+  * FwImage: update firmware to mxm18505.p10
+  * FwImage: update firmware to mxm18505.p12
+  * FwImage: update firmware to mxm18505.p14
+  * FwImage: IW610 default FW should be tri_combo binary
+  * wifi_mod_para.conf: Add PCIEAW693 and USBIW610 configurations
+  * LICENSE.txt: update Software License to v60
+  * WCSWREL-698: wifi_mod_para.conf: remove some default parameters
+
+  [ Vinoba Jadhav ]
+  * Firmware commit for release MM6X18537_2025-04-22-00-42-22
+  * Firmware commit for release MM6X18537.p2_2025-04-22-00-50-34
+
+  [ Sherry Sun ]
+  * wifi_mod_para.conf: add the fw_name parameter back
+  * Makefile: Add PCIE-AW693 and USB-IW610 firmwares
+
+  [ Meet Patel ]
+  * Updated PCIE AW693 firmware to version 18.99.2.p145.33
+
+  [ Sherry Sun ]
+  * WCSWREL-700: remove the SD8801 support
+  * LICENSE.txt: update Software License to v62
+
+  [ Meet Patel ]
+  * Firmware commit for release MM6X18537.p9 2025-05-27_13:55:42
+
+  [ Sherry Sun ]
+  * LICENSE.txt: update Software License to v63
+
+  [ Meet Patel ]
+  * Firmware commit for release MM6X18537.p15_V1 2025-06-20_11:47:51
+  * Firmware commit for release MM6X18540 2025-07-13_16:06:14
+  * Firmware update for 18540 release
+
+  [ Sherry Sun ]
+  * wifi_mod_para.conf: remove the fw_name parameter
+  * wifi_mod_para.conf: remove the max_vir_bss parameter
+
+  [ AMIT CHOUDHARY ]
+  * Firmware update for 18540 release
+  * Firmware commit for release MM6X18540.p7
+
+  [ Sherry Sun ]
+  * Remove the brcm and cypress firmwares
+
+  [ Pushpendra Tiwari ]
+  * Firmware commit for release MM6X18540.p22_V0 2025-10-08_15:09:49
+  * Firmware commit for release MM6X18540.p33_V1 2025-11-12_13:06:15
+
+  [ Amit Kumar ]
+  * Firmware commit for release MM6X18540.p33_V2 2025-11-13_11:54:15
+
+  [ Sherry Sun ]
+  * Remove SD/PCIE W8997 support from BSP from 26Q1 onwards
+
+  [ Pushpendra Tiwari ]
+  * Firmware commit for release MM6X18542.p2_V1 2025-12-24_16:21:21
+
+  [ AMIT CHOUDHARY ]
+  * Firmware commit for release MM6X18542.p8_V1 2026-01-29_23:48:25
+
+  [ Sherry Sun ]
+  * Add SDAW693/IW623 entries
+
+  [ AMIT CHOUDHARY ]
+  * Firmware commit for release MM6X18543.p8 2026-04-27_16:20:18
+  * Firmware commit for release MM6X18543.p18 2026-05-28_17:20:19
+
+  [ Sherry Sun ]
+  * imx-firmware: add SBOM.spdx.json
+
+  [ Sven Sager ]
+  * feat(deb): Update firmware path in install file
+
+ -- Sven Sager <s.sager@kunbus.com>  Fri, 24 Jul 2026 11:29:59 +0200
+
 imx-firmware (6.6.52-2.2.0-1+deb13+1) trixie; urgency=medium
 
   * Initial release for trixie
